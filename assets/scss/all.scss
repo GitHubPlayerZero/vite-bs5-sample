@@ -1,0 +1,13 @@
+// 因為複製 BS 的 _variables.scss 出來用，需要先載入這個。
+@import "../../node_modules/bootstrap/scss/functions";
+
+// 複製 BS 的 _variables.scss，以便自己修改變數客製化。
+@import './utils/variables';
+
+// 載入 BS5 的所有 SCSS。
+@import "../../node_modules/bootstrap";
+
+@import './layout/header.scss';
+@import './layout/footer.scss';
+
+@import './pages/index.scss';
